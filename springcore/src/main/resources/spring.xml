@@ -12,7 +12,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 		<property name="name">
 			<value>Asish</value>
 		</property>
-		<property name="address">
+		<property name="adress">
 			<value>Delhi</value>
 		</property>
 	</bean>
