@@ -9,18 +9,21 @@ public class Student {
 		return id;
 	}
 	public void setId(int id) {
+		System.out.println("seeting id for student");
 		this.id = id;
 	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
+		System.out.println("seeting name for student");
 		this.name = name;
 	}
 	public String getAdress() {
 		return adress;
 	}
 	public void setAdress(String adress) {
+		System.out.println("seeting address for student");
 		this.adress = adress;
 	}
 	public Student(int id, String name, String adress) {
