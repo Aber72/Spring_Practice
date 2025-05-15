@@ -14,6 +14,11 @@ public class LifecycleExc {
 		
 		System.out.println(lifecycle);
 		((AbstractApplicationContext) context).registerShutdownHook();
+		
+		System.out.println("-------------------------------------------");
+		
+		Pepsi pepsi = (Pepsi) context.getBean("pep");
+		System.out.println("pepsi");
 
 	}
 

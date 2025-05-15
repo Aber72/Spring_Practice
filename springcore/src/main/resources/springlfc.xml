@@ -11,6 +11,10 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 		<property name="life" value="10"/>
 		
 	</bean>
+	<bean class="com.beanslifecycle.Pepsi" name="pep" >
+		<property name="price" value="20"/>
+		
+	</bean>
 		
 	
 
