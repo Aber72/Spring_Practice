@@ -22,7 +22,14 @@
          
          <bean class="com.standalonecollection.Bestfriends" name="frd" >
          
-         		<property name="friends" ref="bestfriend"></property>
+         		<property name="friends" ref="bestfriend"/>
+         		
+         
+         </bean>
+          <bean class="com.standalonecollection.Bestfriends" name="frd1" >
+         
+         		<property name="friends" ref="bestfriend"/>
+         		
          
          </bean>
 
