@@ -7,7 +7,7 @@ public class Emp {
 	@Autowired
 	@Qualifier("adress")
    private Address adress;
-
+   
 public Emp() {
 	super();
 	// TODO Auto-generated constructor stub
