@@ -1,6 +1,9 @@
 package com.beanautowiring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Emp {
+	
    private Address adress;
 
 public Emp() {
@@ -18,7 +21,7 @@ public String toString() {
 
 
 
-
+@Autowired
 public Emp(Address adress) {
 	super();
 	System.out.println("inside constructor of emp");
