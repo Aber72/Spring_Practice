@@ -1,9 +1,11 @@
 package com.beanautowiring;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp {
-	
+	@Autowired
+	@Qualifier("adress")
    private Address adress;
 
 public Emp() {
@@ -21,7 +23,7 @@ public String toString() {
 
 
 
-@Autowired
+
 public Emp(Address adress) {
 	super();
 	System.out.println("inside constructor of emp");

@@ -20,6 +20,15 @@
 	
 		
 	</bean>
+	
+	<bean class="com.beanautowiring.Address" name ="adress1">
+	
+		<property name="street" value="2nd Street"/>
+		<property name="city" value="Jamshedpur"/>
+		<property name="state" value="Jharkhand"/>
+	
+		
+	</bean>
 
 	
 	<bean class="com.beanautowiring.Emp" name="employee"  />
